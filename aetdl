@@ -1,0 +1,21 @@
+#assigning elements to different lists.
+langs1 = []
+langs2 = []
+
+langs1.append(Python,PHP)
+print(langs1)
+
+langs2.append(lua,JavaScript,ActionScript)
+print(langs2)
+
+
+#Removing elements from a dictionary
+numbers1 = [1,2,3,4,5,6,7,8]
+del numbers1[4]
+print (numbers1)
+
+#accessing elements from a tuple
+tup1 = ("goat","lion","cow","crow")
+tup2 = (1, 2, 3, 4, 5, 6, 7 )
+print (tup1[0])
+print (tup2[5])
